@@ -17,11 +17,87 @@
     <main class="wrapper">
       <!-- creo la carta, composta da header e body -->
       <div class="card">
+        <!-- card-header, costruiamo due bottoni -->
         <div class="card-header">
           <button class="btn btn-primary">Add Task</button>
           <button class="btn btn-outline">Add Section</button>
         </div>
-        <div class="card-body"></div>
+        <!-- card-body, qui andrà il contenuto della carta -->
+        <div class="card-body">
+          <!--Liste-->
+          <ul>
+            <li>
+              <h3>&blacktriangledown;New Task</h3>
+              <ul class="task-list">
+                <li class="task-item">
+                  <span class="task-status task-done">&check;</span>
+                  <span class="task-text">Quarterly Newsletter </span>
+                  <span class="badge bg-blu">Editorial</span>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <h3>&blacktriangledown;Today</h3>
+              <ul class="task-list">
+                <li class="task-item">
+                  <span class="task-status task-done">&check;</span>
+                  <span class="task-text">Recruiting blog post </span>
+                  <span class="badge bg-blu">Editorial</span>
+                </li>
+
+                <li class="task-item">
+                  <span class="task-status task-done">&check;</span>
+                  <span class="task-text">Mobile app launch </span>
+                  <span class="badge bg-purple">Q1-goals</span>
+                </li>
+
+                <li class="task-item">
+                  <span class="task-status task-undone">&cross;;</span>
+                  <span class="task-text">Interview Johan H. </span>
+                  <span class="badge bg-green">Recruiting</span>
+                </li>
+
+                <li class="task-item">
+                  <span class="task-status task-done">&check;</span>
+                  <span class="task-text"
+                    >Summit update to mobile storefronts
+                  </span>
+                  <span class="badge bg-orange">Mobile</span>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <h3>&blacktriangledown;Upcoming</h3>
+              <ul class="task-list">
+                <li class="task-item">
+                  <span class="task-status task-undone">&cross;</span>
+                  <span class="task-text">Schedule Meeting with Alex </span>
+                  <span class="badge bg-green">Recruiting</span>
+                </li>
+
+                <li class="task-item">
+                  <span class="task-status task-done">&check;</span>
+                  <span class="task-text">Homepahe refresh </span>
+                  <span class="badge bg-pink">Website</span>
+                </li>
+
+                <li class="task-item">
+                  <span class="task-status task-undone">&cross;</span>
+                  <span class="task-text">Onboard new Sales team members </span>
+                  <span class="badge bg-lemon">Sales</span>
+                </li>
+
+                <li class="task-item">
+                  <span class="task-status task-done">&check;</span>
+                  <span class="task-text">Review editorial character</span>
+                  <span class="badge bg-orange">Editorial</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </main>
   </body>
