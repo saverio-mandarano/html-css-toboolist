@@ -19,20 +19,22 @@
       <div class="card">
         <!-- card-header, costruiamo due bottoni -->
         <div class="card-header">
-          <button class="btn btn-primary">Add Task</button>
-          <button class="btn btn-outline">Add Section</button>
+          <button class="btn btn-task">Add Task</button>
+          <button class="btn btn-section">Add Section</button>
         </div>
         <!-- card-body, qui andrà il contenuto della carta -->
         <div class="card-body">
           <!--Liste-->
-          <ul>
-            <li>
-              <h3>&blacktriangledown;New Task</h3>
-              <ul class="task-list">
-                <li class="task-item">
+          <ul class="task-section">
+            <li class="task-section-single">
+              <h3 class="task-section-name">&blacktriangledown;New Task</h3>
+              <ul class="task-section-list">
+                <li class="task-single">
                   <span class="task-status task-done">&check;</span>
                   <span class="task-text">Quarterly Newsletter </span>
                   <span class="badge bg-blu">Editorial</span>
+                  <!-- qui non funziona bene sotto, verificare -->
+                  <span class="task-badge bg-blu">Editorial</span>
                 </li>
               </ul>
             </li>
