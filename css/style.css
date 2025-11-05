@@ -58,13 +58,13 @@ header {
   text-decoration: none;
 }
 
-.btn.btn-primary {
+.btn.btn-task {
   color: white;
   background-color: #1e90ff;
   border-color: #1e90ff;
 }
 
-.btn.btn-outline {
+.btn.btn-section {
   color: rgba(51, 51, 51, 0.6);
   background-color: white;
   border-color: currentColor;
@@ -75,6 +75,12 @@ header {
   height: 40px;
   line-height: 40px;
 }
+
+.task-single {
+  height: 40px;
+  line-height: 40px;
+}
+
 .task-status {
   border: 1px solid currentColor;
   border-radius: 50%;
@@ -109,6 +115,15 @@ header {
   vertical-align: middle;
 }
 
+.task-badge {
+  color: white;
+  background-color: lightslategray;
+  font-size: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  vertical-align: middle;
+}
+
 .bg-purple {
   background-color: #9c72e4;
 }
@@ -128,3 +143,16 @@ header {
 .bg-lemon {
   background-color: #b0c926;
 }
+
+/* 
+- Task Actions (section)
+  -Action Add Task (button)
+  -Action Add Section (button)
+- Task Sections (ul)
+  - Task Section Single (li)
+    - Task Section Name (h3)
+    - Task Section List (ul)
+      - Task Single (li)
+        - Task Text (text)
+        - Task Badge (span)
+*/
